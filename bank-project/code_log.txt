@@ -1,0 +1,26 @@
+ETL Pipeline Log - Started at 2025-09-07 12:08:43.158742
+==================================================
+[2025-09-07 12:08:43] ETL Pipeline initiated
+[2025-09-07 12:09:08] Data extraction initiated
+[2025-09-07 12:09:10] Data extraction completed. 10 records extracted
+[2025-09-07 12:09:31] Data transformation initiated
+[2025-09-07 12:09:32] Data transformation completed
+[2025-09-07 12:09:46] Loading data to CSV initiated
+[2025-09-07 12:09:46] Data saved to CSV file: ./Largest_banks_data.csv
+[2025-09-07 12:10:05] Loading data to CSV initiated
+[2025-09-07 12:10:05] Data saved to CSV file: ./Largest_banks_data.csv
+[2025-09-07 12:10:20] Loading data to CSV initiated
+[2025-09-07 12:10:20] Data saved to CSV file: ./Largest_banks_data.csv
+[2025-09-07 12:11:05] Loading data to CSV initiated
+[2025-09-07 12:11:05] Data saved to CSV file: ./Largest_banks_data.csv
+[2025-09-07 12:11:18] Loading data to database initiated
+[2025-09-07 12:11:18] Data loaded to database table: Largest_banks
+[2025-09-07 12:11:31] Loading data to database initiated
+[2025-09-07 12:11:31] Data loaded to database table: Largest_banks
+[2025-09-07 12:12:06] Running database queries
+[2025-09-07 12:12:06] Database queries completed successfully
+[2025-09-07 12:29:49] ETL Pipeline completed successfully
+[2025-09-07 12:33:33] Data visualization initiated
+[2025-09-07 12:39:41] Data visualization initiated
+[2025-09-07 12:39:41] Data visualization completed successfully
+[2025-09-07 12:39:58] Data visualization initiated
