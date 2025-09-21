@@ -1,0 +1,19 @@
+# Backup files
+*.tar.gz
+*.zip
+*.bak
+
+# Test outputs
+test-output/
+temp/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Logs
+*.log
