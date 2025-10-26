@@ -10,7 +10,7 @@ This repository contains my submission for the Final Assignment consisting of **
 
 ## Project layout
 
-├── airflow-python               <- Build an ETL Pipeline using python with Airflow                        <- AIRFLOW_HOME
+├── airflow-python               <- Build an ETL Pipeline using python with Airflow                       
 │       └── dags/                            <- DAGS_FOLDER
 │           ├── csv_data.csv                 <- Extracted data from vehicle-data.csv
 │           ├── ETL_toll_data.py             <- ETL_toll_data DAG using BashOperator

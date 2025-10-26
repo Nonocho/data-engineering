@@ -5,7 +5,6 @@ This repository contains my submission for the Final Assignment consisting of **
 * Create an ETL pipeline using an Airflow DAG
 
 ## Project Scenario
-
 * Collect data available in different formats and consolidate it into a single file.
 * Create a data pipeline that collects the streaming data and loads it into a database.
 

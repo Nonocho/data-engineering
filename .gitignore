@@ -175,3 +175,38 @@ __pycache__/
 
 # Any other staging or temp data
 staging/
+
+#kafka files
+kafka-pipeline/kafka_2.12-3.7.0/
+kafka-pipeline/*/bin/
+kafka-pipeline/*/logs/
+kafka-pipeline/*.log
+kafka-pipeline/*.out
+kafka-pipeline/*.pid
+
+# Ignore python cache and environment files 
+kafka-pipeline/__pycache__/
+kafka-pipeline/*.pyc
+kafka-pipeline/.env
+
+# Ignore other generated or sensitive files
+kafka-pipeline/simple_auth_manager_passwords.json.generated
+
+
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+
+.DS_Store
+Thumbs.db
+.env
+*.jar
+*.class
+*.zip
+*.tgz
+
+.idea/
+.vscode/
+
+.*.swp
