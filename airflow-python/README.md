@@ -1,17 +1,16 @@
 
-This repository contains my submission for the Final Assignment consisting of ***Hands-on Lab: Build an ETL Pipeline using Bash with Airflow*** 
+This repository contains my submission for the Final Assignment consisting of ***Hands-on Lab: Build an ETL Pipeline using Python with Airflow*** 
 
 ## Objectives
 * Create an ETL pipeline using an Airflow DAG
 
 ## Project Scenario
-
 * Collect data available in different formats and consolidate it into a single file.
 * Create a data pipeline that collects the streaming data and loads it into a database.
 
 ## Project layout
 
-├── airflow-bash                                     <- Build an ETL Pipeline using Bash with Airflow
+├── airflow-python               <- Build an ETL Pipeline using python with Airflow                        <- AIRFLOW_HOME
 │       └── dags/                            <- DAGS_FOLDER
 │           ├── csv_data.csv                 <- Extracted data from vehicle-data.csv
 │           ├── ETL_toll_data.py             <- ETL_toll_data DAG using BashOperator
