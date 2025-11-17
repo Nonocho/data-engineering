@@ -1,0 +1,13 @@
+# Core Spark
+pyspark==3.5.0
+
+# Jupyter
+jupyter==1.0.0
+notebook==7.0.6
+
+# Utilities
+findspark==2.0.1
+wget==3.2
+
+# Optional: for data comparison
+pandas==2.0.3
